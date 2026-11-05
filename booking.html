@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ivory Dental Booking — Book in under a minute</title>
+<meta name="description" content="Demo booking form for Ivory Dental. No real appointment will be booked from this form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="announce">Interactive Proposal Demo — Experience the proposed AI WhatsApp assistant for Ivory Dental</div>
+<header class="site"><div class="header-in">
+<a class="logo" href="index.html"><span class="logo-mark">I</span><span><b>Ivory Dental</b><small>Yishun &amp; Tampines</small></span></a>
+<nav class="main" aria-label="Main"><a href="index.html">Home</a><a href="treatments.html">Treatments</a><a href="bot-demo.html">WhatsApp Bot Demo</a><a href="booking.html" class=active>Booking</a><a href="contact.html">Contact</a></nav>
+<a class="btn btn-primary btn-sm header-cta" href="bot-demo.html">Book on WhatsApp</a>
+<span class="account" aria-label="Account">◯</span>
+</div></header>
+<main id="main">
+<section class="wrap" style="padding-top:56px"><p class="eyebrow">Booking</p>
+<h1>Book in under a minute.</h1>
+<p class="lede">Tell us what you need and when works for you. In the live system, this arrives instantly on WhatsApp — no waiting for office hours.</p>
+<p class="note">Current demo form — your request will be handled as a WhatsApp message in the live system.</p>
+<div style="display:grid;grid-template-columns:1.2fr .8fr;gap:32px;margin-top:32px;align-items:start">
+<form class="form-card" id="booking-form">
+<label for="f-name">Your Name</label><input id="f-name" name="name" type="text" autocomplete="name" required>
+<label for="f-contact">Contact Number</label><input id="f-contact" name="contact" type="tel" autocomplete="tel" required>
+<label for="f-clinic">Preferred Clinic</label><select id="f-clinic" name="clinic" required><option value="">Select a clinic</option><option>Yishun</option><option>Tampines</option></select>
+<label for="f-treatment">Treatment</label><select id="f-treatment" name="treatment" required><option value="">Select a treatment</option><option>Check-up & Cleaning</option><option>Fillings</option><option>Whitening</option><option>Orthodontics</option><option>Implants</option><option>Wisdom Tooth</option><option>Children's Dentistry</option></select>
+<label for="f-day">Preferred Day</label><select id="f-day" name="day" required><option value="">Select a day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select>
+<label for="f-time">Preferred Time</label><select id="f-time" name="time" required><option value="">Select a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select>
+<label for="f-notes">Anything we should know?</label><textarea id="f-notes" name="notes"></textarea>
+<button class="btn btn-primary" type="submit" style="margin-top:20px;width:100%">Send Booking Request</button>
+<p class="note" style="margin-top:16px">This is a demo. No real appointment will be booked from this form.<br>We will confirm during opening hours.</p>
+<div class="confirm" id="booking-confirm" hidden></div>
+</form>
+<div>
+<p class="eyebrow">Why Book on WhatsApp?</p>
+<h2>Faster than a phone call. Easier than a form.</h2>
+<ul><li>Instant reply, any hour</li><li>No app to download</li><li>Real sample slots, clearly labelled</li><li>Friendly reminder before your visit</li></ul>
+<div class="urgent"><h3>In pain right now?</h3><p>For urgent tooth pain, swelling, or a broken tooth, call us directly — don't wait for a message reply.</p><a href="tel:66776080">6677 6080</a></div>
+</div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="foot-grid">
+<div><p style="font-family:var(--serif);font-size:1.5rem;margin:0 0 10px">Ivory Dental</p><p>Gentle clinical dentistry in Singapore. Bridging anxiety-free patient care with effortless digital scheduling.</p></div>
+<div><h3>Clinic Locations</h3><ul><li><strong>Yishun Centre</strong><br>Blk 471B Yishun St 42 #01-02<br>Tel: 6677 6080</li><li><strong>Tampines Hub</strong><br>[TO CONFIRM]</li></ul></div>
+<div><h3>Quick Navigation</h3><ul><li><a href="index.html">Home</a></li><li><a href="treatments.html">Our Treatments &amp; Services</a></li><li><a href="bot-demo.html">Live WhatsApp Bot Simulator</a></li><li><a href="booking.html">Online Slot Reservation</a></li><li><a href="contact.html">Contact &amp; Enquiry</a></li></ul></div>
+<div><h3>Direct Inquiries</h3><p>Have specific treatment questions or clinical inquiries?</p><p>Email: <a href="mailto:contact@ivorydental.sg">contact@ivorydental.sg</a></p></div>
+</div>
+<div class="foot-bottom"><span>Demonstration Prototype developed for workflow evaluation purposes. © 2026 Ivory Dental. Proposed Digital Experience &amp; WhatsApp Assistant System.</span><span><a href="contact.html">Privacy Policy</a> · <a href="contact.html">Terms of Care</a> · <a href="contact.html">PDPA Compliance</a></span></div>
+</div></footer>
+<div class="mobile-bar"><a href="bot-demo.html">Book on WhatsApp</a><a class="call" href="tel:66776080">Call 6677 6080</a></div>
+<script src="app.js"></script>
+</body>
+</html>
